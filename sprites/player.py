@@ -12,6 +12,7 @@ class Player(GameObject):
         self.pos_y = 0
         self.state = "idle"
         self.controlled = False
+        self.immune = False
         self.reset()
         
 

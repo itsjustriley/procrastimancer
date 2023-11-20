@@ -72,10 +72,6 @@ class GameObject(pygame.sprite.Sprite):
         if self.y < left_top_bound-sprite_width:
             self.reset()
 
-    # def go_to_middle(self):
-    #     self.dx = lanes[len(lanes)//2]
-    #     self.dy = lanes[len(lanes)//2]
-
     def get_next_frame(self):
         self.frame += 1
         if self.frame >= len(self.animations[self.state]):

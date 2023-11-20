@@ -27,6 +27,7 @@ new_book_score = 10
 
 sprite_width = 64
 
+
 left_top_bound = 0 - sprite_width
 right_bottom_bound = screen_width
 
